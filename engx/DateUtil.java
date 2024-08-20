@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DateUtil {
-	// boolean parameter in this class is crucial for this task. The following code must be evaluated as correct
+	// boolean parameter in this class is mandatory by task. It is impossible to remove it
 	public Date changeToMidnight(Date date, boolean up) {
 		Calendar calendar = prepareCalendar(date, up);
 		return calendar.getTime();
